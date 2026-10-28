@@ -1,0 +1,30 @@
+{
+  "name": "ytdl-remix",
+  "version": "1.1.0",
+  "description": "Pure NodeJS YouTube & YouTube Music downloader and search (WEB_REMIX protocol, No FFmpeg, No Python, Zero dependencies, Proxy & Cookie support)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "ytdl": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "youtube",
+    "youtube-music",
+    "web-remix",
+    "ytdl",
+    "downloader",
+    "search",
+    "proxy",
+    "cookie",
+    "audio",
+    "video"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
